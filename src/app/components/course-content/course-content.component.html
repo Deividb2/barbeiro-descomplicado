@@ -1,0 +1,12 @@
+<section class="content">
+    <h2>O que os alunos aprendem no curso?</h2>
+    <ul>
+        @for (item of listItems; track $index) {
+            <li>
+                <div class="icon"><ng-icon name="heroCheck" /></div>
+                {{ item.text }}
+            </li>
+        }
+    </ul>
+    <p>E muitas outras coisas que só se vê lá</p>
+</section>

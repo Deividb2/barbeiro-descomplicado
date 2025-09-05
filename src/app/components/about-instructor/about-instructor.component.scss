@@ -1,0 +1,40 @@
+@use "../../../assets/styles/variables" as *;
+
+.instructor {
+    display: flex;
+    flex-direction: column;
+
+    &__img {
+        height: 25rem;
+        width: 100%;
+        background: url("../../../../public/images/author/isaac-01.JPG") no-repeat top / cover;
+    }
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        padding: 0 1rem;
+
+        h2 {
+            font-size: 2rem;
+            font-weight: 400;
+            font-family: $font-Gothic;
+        }
+
+        p {
+            font-size: 1.2rem;
+        }
+
+        a {
+            text-decoration: none;
+            text-align: center;
+            padding: 1rem;
+            width: 100%;
+            background-color: #ccc;
+            color: #000;
+            font-size: 1.2rem;
+            font-weight: 600;
+        }
+    }
+}

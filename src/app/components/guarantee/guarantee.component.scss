@@ -1,0 +1,35 @@
+@use "../../../assets/styles/variables" as *;
+
+.guarantee {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 3rem 1rem;
+
+    &__img {
+        width: 12rem;
+        height: 10rem;
+        background: url("../../../../public/images/guarantee.png") no-repeat center / cover;
+    }
+
+    h2 {
+        font-family: $font-Gothic;
+        font-weight: 400;
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    p {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+}
+
+@media(min-width: 375px) {
+    .guarantee {
+        div {
+            height: 12rem;
+        }
+    }
+}

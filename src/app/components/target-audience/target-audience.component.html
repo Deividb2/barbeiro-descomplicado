@@ -1,0 +1,25 @@
+<section class="audience">
+    <div>
+        <h2>Para quem é este curso?</h2>
+        <ul>
+            @for (item of targetAudience; track $index) {
+                <li>
+                    <div><ng-icon name="heroCheck" /></div>
+                    {{item.text}}
+                </li>
+            }
+        </ul>
+    </div>
+
+    <div>
+        <h2>Para quem <strong>NÃO</strong> é este curso?</h2>
+        <ul>
+            @for (item of targetAudienceNot; track $index) {
+                <li>
+                    <div><ng-icon name="heroXMark" /></div>
+                    {{item.text}}
+                </li>
+            }
+        </ul>
+    </div>
+</section>
