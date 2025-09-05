@@ -1,5 +1,5 @@
 <section class="audience">
-    <div>
+    <div class="audience-pro">
         <h2>Para quem é este curso?</h2>
         <ul>
             @for (item of targetAudience; track $index) {
@@ -11,7 +11,7 @@
         </ul>
     </div>
 
-    <div>
+    <div class="audience-not">
         <h2>Para quem <strong>NÃO</strong> é este curso?</h2>
         <ul>
             @for (item of targetAudienceNot; track $index) {

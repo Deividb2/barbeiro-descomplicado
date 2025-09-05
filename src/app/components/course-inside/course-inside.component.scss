@@ -10,6 +10,7 @@
         font-size: 2rem;
         font-family: $font-Gothic;
         font-weight: 400;
+        color: $clr-primary;
     }
 
     h3 {
@@ -29,8 +30,8 @@
         width: 100%;
         font-size: 1.2rem;
         font-weight: 600;
-        background-color: #ccc;
-        color: #000;
+        background-color: $clr-primary;
+        color: $clr-light;
     }
 }
 
